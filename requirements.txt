@@ -1,10 +1,11 @@
 streamlit
-langchain
+langchain==0.1.0
 openai
 chromadb
 langchain-openai
 tiktoken
-langchain-text-splitters
+
+
 
 
 
