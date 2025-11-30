@@ -4,5 +4,7 @@ openai
 chromadb
 langchain-openai
 tiktoken
+langchain-text-splitters
+
 
 
