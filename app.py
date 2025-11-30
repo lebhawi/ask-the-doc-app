@@ -1,3 +1,4 @@
+!pip install langchain==0.1.0
 import streamlit as st
 from langchain_openai import OpenAI
 #from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -44,6 +45,7 @@ with st.form('myform', clear_on_submit=True):
 
 if len(result):
     st.info(response)
+
 
 
 
