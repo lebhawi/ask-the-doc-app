@@ -1,9 +1,9 @@
 import streamlit as st
 from langchain_openai import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
 #from langchain_community.vectorstores import Chroma
-from langchain.chains import RetrievalQA
+#from langchain.chains import RetrievalQA
 
 def generate_response(uploaded_file, openai_api_key, query_text):
     # Load document if file is uploaded
