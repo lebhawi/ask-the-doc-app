@@ -1,11 +1,9 @@
 streamlit
 langchain==0.1.0
 openai
-chromadb
 langchain-openai
 tiktoken
 protobuf==3.20.3
-chromadb==0.4.24
 
 
 
